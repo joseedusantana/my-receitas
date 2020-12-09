@@ -6,5 +6,10 @@
             "email": "37674403+joseedusantana@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/"
+        }
+    }
 }
