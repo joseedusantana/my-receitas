@@ -4,6 +4,7 @@
     require_once('../app/config/global.php');
     require_once('../app/functions/functions.php');
 
-    use app\site\controller\HomeController;
+    use app\core\Router;
 
-    $homeController = new HomeController();
+    (new Router());
+    
